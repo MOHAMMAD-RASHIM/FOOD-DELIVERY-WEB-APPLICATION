@@ -1,0 +1,27 @@
+# Build folders
+/build/
+/target/
+
+# Eclipse
+.settings/
+
+# Tomcat
+Servers/
+
+# Logs
+*.log
+
+# Java compiled files
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
