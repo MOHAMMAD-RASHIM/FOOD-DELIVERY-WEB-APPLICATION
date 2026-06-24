@@ -26,7 +26,7 @@
 <body>
 
     <nav>
-        <h1>🍽️ TapFood</h1>
+        <h1> TapFood</h1>
         <div>
             <a href="login.jsp">Login</a>
             <a href="register.jsp">Sign Up</a>
@@ -44,7 +44,7 @@
         <div class="card">
             <img src="<%= restaurant.getImagePath() %>" 
                  alt="<%= restaurant.getRestaurantName() %>"
-                 onerror="this.src='images/default.jpg'"/>
+                 onerror="this.src='images/default.png'"/>
             <div class="card-body">
                 <h3><%= restaurant.getRestaurantName() %></h3>
                 <p><%= restaurant.getCuisineType() %></p>
@@ -52,8 +52,7 @@
                 <p><%= restaurant.getRating() %></p>
                 <p><%= restaurant.getAddress() %></p>
             </div>
-            <a href="menuServlet?restaurantId=<%= restaurant.getRestaurantId() %>" 
-               class="btn">View Menu</a>
+            <a href="menu?restaurantId=<%= restaurant.getRestaurantId() %>" class="btn">View Menu</a>
         </div>
     <%
             }
