@@ -29,7 +29,7 @@
         <h1> TapFood</h1>
         <div>
             <a href="login.jsp">Login</a>
-            <a href="register.jsp">Sign Up</a>
+            <a href="register.html">Sign Up</a>
         </div>
     </nav>
 
